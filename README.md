@@ -1,49 +1,51 @@
-
-- Java Scanner
-- Java Random
-
-## How to Run
-
-1. Open the project in VS Code.
-2. Open `NumberGuessingGame.java`.
-3. Compile the program.
-4. Run the program.
-5. Enter a number between 1 and 100.
-6. Follow the hints to find the correct number.
-
-## Game Rules
-
-- The computer selects a random number between 1 and 100.
-- The player gets 7 attempts.
-- If the guess is lower than the number, the game displays "Too Low".
-- If the guess is higher than the number, the game displays "Too High".
-- A correct guess displays the score.
-- The player can choose to play again.
-# Number Guessing Game
+# ATM Interface
 
 ## Project Overview
 
-This project is a simple Number Guessing Game developed using Java.
-
-The computer generates a random number between 1 and 100. The player has a limited number of attempts to guess the correct number.
+This project is a simple ATM Interface developed using Java.
+It allows a user to securely access an account using a PIN and perform basic banking operations.
 
 ## Features
 
-- Random number generation
-- Number range from 1 to 100
-- Maximum 7 attempts
-- Too High and Too Low hints
-- Attempt counting
-- Score calculation
-- Total score tracking
-- Option to play again
+- PIN verification
+- Check account balance
+- Withdraw money
+- Deposit money
+- Transfer money
+- Transaction history
+- Exit option
 
 ## Technologies Used
 
 - Java
+- Java Scanner
+- Java ArrayList
+
+## How to Run
+
+1. Open the project in VS Code.
+2. Open the Java project folder.
+3. Compile the Java files.
+4. Run `Main.java`.
+5. Enter the PIN `1234`.
+6. Select an option from the ATM menu.
+
+## Test Account
+
+- Account Number: 1234567890
+- PIN: 1234
+- Initial Balance: Rs. 10000
+
+## Java Files
+
+- Account.java
+- Transaction.java
+- ATM.java
+- Main.java
+
 ## Author
 
-Kanika M
+kanika M
 
 ## Internship
 
